@@ -1,0 +1,34 @@
+{
+  "formatVersion": 1,
+  "name": "RtishevPack",
+  "author": "Ртищев",
+  "description": "Сборка для Minecraft 1.20.1 Forge",
+  "versionId": "1.20.1-forge-47.3.12",
+  "gameVersion": "1.20.1",
+  "modLoader": {
+    "id": "forge-47.3.12",
+    "type": "Forge"
+  },
+  "files": [
+    {
+      "path": "mods/AdvancedAE-0.3.3-1.20.1.jar",
+      "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/AdvancedAE-0.3.3-1.20.1.jar",
+      "sha1": "E0F3F93784EFD3E4077BABADF02096B4979587A1"
+    },
+    {
+      "path": "mods/ad_astra-forge-1.20.1-1.15.17.jar",
+      "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ad_astra-forge-1.20.1-1.15.17.jar",
+      "sha1": "9FDD3D7022051DC2D4D9822C2EDD29478FECB567"
+    },
+    {
+      "path": "mods/ae2wtlib-15.2.3-forge.jar",
+      "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ae2wtlib-15.2.3-forge.jar",
+      "sha1": "9A35BC25BA2DAADE63DB76FF4012EB68B0392B08"
+    },
+    {
+      "path": "mods/ZeroCore2-1.20.1-2.1.47.jar",
+      "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ZeroCore2-1.20.1-2.1.47.jar",
+      "sha1": "8F0452E2B1B5FD35EDCC077A3A0F7E2AB08CD050"
+    }
+  ]
+}
