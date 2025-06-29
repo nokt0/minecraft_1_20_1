@@ -1,34 +1,669 @@
 {
-  "formatVersion": 1,
-  "name": "RtishevPack",
-  "author": "Ртищев",
-  "description": "Сборка для Minecraft 1.20.1 Forge",
-  "versionId": "1.20.1-forge-47.3.12",
-  "gameVersion": "1.20.1",
-  "modLoader": {
-    "id": "forge-47.3.12",
-    "type": "Forge"
-  },
-  "files": [
-    {
-      "path": "mods/AdvancedAE-0.3.3-1.20.1.jar",
-      "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/AdvancedAE-0.3.3-1.20.1.jar",
-      "sha1": "E0F3F93784EFD3E4077BABADF02096B4979587A1"
+    "formatVersion": 1,
+    "name": "nokt0 mods",
+    "author": "Nokt0",
+    "description": "Сборка для Minecraft 1.20.1 Forge",
+    "versionId": "1.20.1-forge-47.3.12",
+    "gameVersion": "1.20.1",
+    "modLoader": {
+        "id": "forge-47.3.12",
+        "type": "Forge"
     },
-    {
-      "path": "mods/ad_astra-forge-1.20.1-1.15.17.jar",
-      "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ad_astra-forge-1.20.1-1.15.17.jar",
-      "sha1": "9FDD3D7022051DC2D4D9822C2EDD29478FECB567"
-    },
-    {
-      "path": "mods/ae2wtlib-15.2.3-forge.jar",
-      "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ae2wtlib-15.2.3-forge.jar",
-      "sha1": "9A35BC25BA2DAADE63DB76FF4012EB68B0392B08"
-    },
-    {
-      "path": "mods/ZeroCore2-1.20.1-2.1.47.jar",
-      "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ZeroCore2-1.20.1-2.1.47.jar",
-      "sha1": "8F0452E2B1B5FD35EDCC077A3A0F7E2AB08CD050"
-    }
-  ]
+    "files": [
+        {
+            "path": "mods/AdvancedAE-0.3.3-1.20.1.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/AdvancedAE-0.3.3-1.20.1.jar",
+            "sha1": "e0f3f93784efd3e4077babadf02096b4979587a1"
+        },
+        {
+            "path": "mods/ad_astra-forge-1.20.1-1.15.17.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ad_astra-forge-1.20.1-1.15.17.jar",
+            "sha1": "9fdd3d7022051dc2d4d9822c2edd29478fecb567"
+        },
+        {
+            "path": "mods/ae2wtlib-15.2.3-forge.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ae2wtlib-15.2.3-forge.jar",
+            "sha1": "9a35bc25ba2daade63db76ff4012eb68b0392b08"
+        },
+        {
+            "path": "mods/Applied-Botanics-forge-1.5.0.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Applied-Botanics-forge-1.5.0.jar",
+            "sha1": "26ef152312f3fa21dfee305a6787f96c065d6831"
+        },
+        {
+            "path": "mods/Applied-Mekanistics-1.4.2.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Applied-Mekanistics-1.4.2.jar",
+            "sha1": "1c6742e3ac2662844c720a42728a10bb9648d13b"
+        },
+        {
+            "path": "mods/appliedenergistics2-forge-15.2.13.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/appliedenergistics2-forge-15.2.13.jar",
+            "sha1": "73468f3fa3fffe042fabb5b47dc67c7bf722cdc7"
+        },
+        {
+            "path": "mods/AppliedFlux-1.20-1.1.9-forge.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/AppliedFlux-1.20-1.1.9-forge.jar",
+            "sha1": "c2ad7626c3f30a9b07d7a62143a42abb851964ba"
+        },
+        {
+            "path": "mods/architectury-9.2.14-forge.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/architectury-9.2.14-forge.jar",
+            "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4"
+        },
+        {
+            "path": "mods/arseng-1.2.0.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/arseng-1.2.0.jar",
+            "sha1": "0866c840609d8872e84a4d52bbb2542699e88755"
+        },
+        {
+            "path": "mods/ars_nouveau-1.20.1-4.12.6-all.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ars_nouveau-1.20.1-4.12.6-all.jar",
+            "sha1": "7b67a645814dc4c9673f29bcb6f25cbe9544c826"
+        },
+        {
+            "path": "mods/ars_ocultas-1.20.1-1.2.2-all.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ars_ocultas-1.20.1-1.2.2-all.jar",
+            "sha1": "4c10eb7caf380ffaf7ab1317d9783bf4340ac964"
+        },
+        {
+            "path": "mods/BiomesOPlenty-forge-1.20.1-19.0.0.91.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/BiomesOPlenty-forge-1.20.1-19.0.0.91.jar",
+            "sha1": "487c9c633e7c8fa5dca9f399ea24969ba3e2476b"
+        },
+        {
+            "path": "mods/Botania-1.20.1-446-FORGE.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Botania-1.20.1-446-FORGE.jar",
+            "sha1": "30ca9f036aaf7f18ebaa2cb5aa578c6ba1d273e6"
+        },
+        {
+            "path": "mods/botarium-forge-1.20.1-2.3.4.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/botarium-forge-1.20.1-2.3.4.jar",
+            "sha1": "a6928cb03b7c5f81900d3d3c8e8c8f6a89a51a5b"
+        },
+        {
+            "path": "mods/BrandonsCore-1.20.1-3.2.1.302-universal.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/BrandonsCore-1.20.1-3.2.1.302-universal.jar",
+            "sha1": "1378ba5f84267c18f945c52d787ac86e40d6c241"
+        },
+        {
+            "path": "mods/cc-tweaked-1.20.1-forge-1.114.2.jar.deactivation",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/cc-tweaked-1.20.1-forge-1.114.2.jar.deactivation",
+            "sha1": "4304f519cd34180b0d468b44348b057bc869ad26"
+        },
+        {
+            "path": "mods/cloth-config-11.1.136-forge.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/cloth-config-11.1.136-forge.jar",
+            "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f"
+        },
+        {
+            "path": "mods/cobbledex-1.20.1-forge-1.1.0.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/cobbledex-1.20.1-forge-1.1.0.jar",
+            "sha1": "69c1fd0b12b142690f8d7aae54845be6240179e9"
+        },
+        {
+            "path": "mods/cobblemon-capturexp-1.5-forge-1.0.1.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/cobblemon-capturexp-1.5-forge-1.0.1.jar",
+            "sha1": "422df1217de7e25e587aed463c9f5a50b69d98bb"
+        },
+        {
+            "path": "mods/Cobblemon-forge-1.5.2+1.20.1.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Cobblemon-forge-1.5.2+1.20.1.jar",
+            "sha1": "02601f79f0c442b75463538da7a3c7f260fda42e"
+        },
+        {
+            "path": "mods/cobblemon-legendary-structures-2.0.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/cobblemon-legendary-structures-2.0.jar",
+            "sha1": "625d4911ff49775fe4ab7f8200ec2b544b619330"
+        },
+        {
+            "path": "mods/cobblemonintegrations-1.20.1-1.0.7.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/cobblemonintegrations-1.20.1-1.0.7.jar",
+            "sha1": "67400a2e6cec4f01a6a52aed3bb9937bfc29982d"
+        },
+        {
+            "path": "mods/cobblemon_quests-[1.20.1]-forge-1.1.11.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/cobblemon_quests-[1.20.1]-forge-1.1.11.jar",
+            "sha1": "c0b615b40e9dfc34f0e6bfdabd9480fda6a0e32f"
+        },
+        {
+            "path": "mods/Cobblepedia-Forge-0.6.8.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Cobblepedia-Forge-0.6.8.jar",
+            "sha1": "edb3b145116035430b4a4f27e0f76755571ef0ba"
+        },
+        {
+            "path": "mods/CodeChickenLib-1.20.1-4.4.0.516-universal.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/CodeChickenLib-1.20.1-4.4.0.516-universal.jar",
+            "sha1": "f9b90ff58442b5967366fd90d24980a34540518d"
+        },
+        {
+            "path": "mods/cofh_core-1.20.1-11.0.2.56.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/cofh_core-1.20.1-11.0.2.56.jar",
+            "sha1": "6f7c0056fece31bf393df450d79482810ed444af"
+        },
+        {
+            "path": "mods/configuration-forge-1.20.1-3.1.0.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/configuration-forge-1.20.1-3.1.0.jar",
+            "sha1": "8757a9f1d47f48463765d1d202cdadc41c84f6b0"
+        },
+        {
+            "path": "mods/configured-forge-1.20.1-2.2.3.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/configured-forge-1.20.1-2.2.3.jar",
+            "sha1": "065c2d287a52f52fc8d33d780192325ee6f4b6ae"
+        },
+        {
+            "path": "mods/create-1.20.1-0.5.1.j.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/create-1.20.1-0.5.1.j.jar",
+            "sha1": "fab2ae7fcf685b3875ca20022bfecf0d4fdafbf7"
+        },
+        {
+            "path": "mods/create-new-age-forge-1.20.1-1.1.2.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/create-new-age-forge-1.20.1-1.1.2.jar",
+            "sha1": "92fcbc49d41a4d1b2038b469154a4c36e3934e36"
+        },
+        {
+            "path": "mods/create-structures-0.1.1-1.20.1-FORGE.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/create-structures-0.1.1-1.20.1-FORGE.jar",
+            "sha1": "6bd0a029f7ae4e400b55f8355f73e69dc31bd1a8"
+        },
+        {
+            "path": "mods/createaddition-1.20.1-1.2.4e.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/createaddition-1.20.1-1.2.4e.jar",
+            "sha1": "41f22b70ceb9f61db0306871f2ae9998b25ed4fd"
+        },
+        {
+            "path": "mods/cristellib-1.1.6-forge.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/cristellib-1.1.6-forge.jar",
+            "sha1": "524ecf0f93f28be2f5db21d87dd81bdbc1a450e1"
+        },
+        {
+            "path": "mods/curios-forge-5.11.0+1.20.1.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/curios-forge-5.11.0+1.20.1.jar",
+            "sha1": "f81eead8c73b88463a3beb335be008fc388c82fa"
+        },
+        {
+            "path": "mods/Draconic-Evolution-1.20.1-3.1.2.588-universal.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Draconic-Evolution-1.20.1-3.1.2.588-universal.jar",
+            "sha1": "be9aa4c355d710b59d9c5e804c779c339798dfef"
+        },
+        {
+            "path": "mods/dungeons-and-taverns-3.0.3.f.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/dungeons-and-taverns-3.0.3.f.jar",
+            "sha1": "3f324242f3daf4785a8b9338f228679418f4870a"
+        },
+        {
+            "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/embeddium-0.3.31+mc1.20.1.jar",
+            "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f"
+        },
+        {
+            "path": "mods/EnderIO-1.20.1-6.2.1-beta-all.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/EnderIO-1.20.1-6.2.1-beta-all.jar",
+            "sha1": "4cb33fdee5c2e732366624b3b80001ad9b059d57"
+        },
+        {
+            "path": "mods/endertanks-forge-1.20.1-1.4.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/endertanks-forge-1.20.1-1.4.jar",
+            "sha1": "d76b36e7f0208e9495d412e4142c272930820b9a"
+        },
+        {
+            "path": "mods/exlinefurniture-forge-1.20.1-2.7.3.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/exlinefurniture-forge-1.20.1-2.7.3.jar",
+            "sha1": "dca95e3ca4447a2eba39f9488bfd4cc034ab5494"
+        },
+        {
+            "path": "mods/ExtendedAE-1.20-1.2.1-forge.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ExtendedAE-1.20-1.2.1-forge.jar",
+            "sha1": "34ab7c4e6ae304539d06e0c85eaf50de2292e235"
+        },
+        {
+            "path": "mods/ExtremeReactors2-1.20.1-2.0.90.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ExtremeReactors2-1.20.1-2.0.90.jar",
+            "sha1": "5417d8898b974ef2a0c461187c02aee667eab8b4"
+        },
+        {
+            "path": "mods/FarmersDelight-1.20.1-1.2.5.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/FarmersDelight-1.20.1-1.2.5.jar",
+            "sha1": "ada791c355fc50cfcb147413e5c5a833a98711de"
+        },
+        {
+            "path": "mods/ferritecore-6.0.1-forge.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ferritecore-6.0.1-forge.jar",
+            "sha1": "417fb6ce8f52abf40bd9d0390371790f9576f8ba"
+        },
+        {
+            "path": "mods/fightorflight-forge-0.5.3.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/fightorflight-forge-0.5.3.jar",
+            "sha1": "7c1bd13fc42a5c81e53c58c873a394a33b46acd0"
+        },
+        {
+            "path": "mods/file",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/file",
+            "sha1": "6f7c0056fece31bf393df450d79482810ed444af"
+        },
+        {
+            "path": "mods/FluxNetworks-1.20.1-7.2.1.15.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/FluxNetworks-1.20.1-7.2.1.15.jar",
+            "sha1": "65cea2d3da2a6d6fd274ef1dad37a516466be22c"
+        },
+        {
+            "path": "mods/ftb-chunks-forge-2001.3.3.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ftb-chunks-forge-2001.3.3.jar",
+            "sha1": "e41a50caa8d3a4f6b3a9ab40c32c348d408c0518"
+        },
+        {
+            "path": "mods/ftb-essentials-forge-2001.2.2.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ftb-essentials-forge-2001.2.2.jar",
+            "sha1": "e9f668ea8fa12215b1db9d505af8feb617d66e5a"
+        },
+        {
+            "path": "mods/ftb-library-forge-2001.2.6.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ftb-library-forge-2001.2.6.jar",
+            "sha1": "86e91bbcc0050d5a25e2e4e9aba617b88f15cc0d"
+        },
+        {
+            "path": "mods/ftb-quests-forge-2001.4.9.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ftb-quests-forge-2001.4.9.jar",
+            "sha1": "8304908d8a236cd3ba4ebbf758d40f70868e71bc"
+        },
+        {
+            "path": "mods/ftb-teams-forge-2001.3.0.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ftb-teams-forge-2001.3.0.jar",
+            "sha1": "bb5a1f3ac9d44c5e9b319768e7166e877879aaaa"
+        },
+        {
+            "path": "mods/ftb-xmod-compat-forge-2.1.1.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ftb-xmod-compat-forge-2.1.1.jar",
+            "sha1": "55897695a22247ebe781499558a87b779175082a"
+        },
+        {
+            "path": "mods/ftbbackups2-forge-1.20-1.0.23.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ftbbackups2-forge-1.20-1.0.23.jar",
+            "sha1": "4b100de40338247a3fbf4d1fd1846257c5338189"
+        },
+        {
+            "path": "mods/FTBQuestsOptimizer-forge-2.0.4-1.20.1.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/FTBQuestsOptimizer-forge-2.0.4-1.20.1.jar",
+            "sha1": "b249cf13a171fcad12aacc5b3587deb4d0ad7aa6"
+        },
+        {
+            "path": "mods/geckolib-forge-1.20.1-4.4.9.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/geckolib-forge-1.20.1-4.4.9.jar",
+            "sha1": "0c60e839e65a18782b4f5f411794de8be261ee0b"
+        },
+        {
+            "path": "mods/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+            "sha1": "bba0b08fe76b28b35243fee53f99d54a18153b53"
+        },
+        {
+            "path": "mods/Glodium-1.20-1.5-forge.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Glodium-1.20-1.5-forge.jar",
+            "sha1": "c7534db3248adfcf39a6158b423dfc9bfc99a378"
+        },
+        {
+            "path": "mods/gpumemleakfix-1.20.1-1.8.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/gpumemleakfix-1.20.1-1.8.jar",
+            "sha1": "54301c2db5467e0f9f5c504887436f358335331f"
+        },
+        {
+            "path": "mods/gravestone-forge-1.20.1-1.0.24.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/gravestone-forge-1.20.1-1.0.24.jar",
+            "sha1": "d8f0ab99064ac8c4cf8c613e5f6588b65e4b33f8"
+        },
+        {
+            "path": "mods/Guide-API-VP-1.20.1-2.2.6.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Guide-API-VP-1.20.1-2.2.6.jar",
+            "sha1": "e1994e3be4a6bc18b269df0f311664cd1cacae1d"
+        },
+        {
+            "path": "mods/industrial-foregoing-1.20.1-3.5.19.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/industrial-foregoing-1.20.1-3.5.19.jar",
+            "sha1": "49c88f0d3723499b97472c5275ed1fe0dbc83282"
+        },
+        {
+            "path": "mods/InventoryProfilesNext-forge-1.20-1.10.10.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/InventoryProfilesNext-forge-1.20-1.10.10.jar",
+            "sha1": "4741ea1fd6d1593b693a389b7c6e1e47690ac3ad"
+        },
+        {
+            "path": "mods/ironchests-5.0.2-forge.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ironchests-5.0.2-forge.jar",
+            "sha1": "610aa09a1d83253db6bf32f6b12c84d446fa99b6"
+        },
+        {
+            "path": "mods/Jade-1.20.1-Forge-11.12.2.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Jade-1.20.1-Forge-11.12.2.jar",
+            "sha1": "364c39334b7f7c842eecc839de2730a2899e580b"
+        },
+        {
+            "path": "mods/JadeAddons-1.20.1-forge-5.2.2.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/JadeAddons-1.20.1-forge-5.2.2.jar",
+            "sha1": "74b567a2b23bf34cd37ee4c02059318f8cc702d7"
+        },
+        {
+            "path": "mods/jei-1.20.1-forge-15.20.0.105.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/jei-1.20.1-forge-15.20.0.105.jar",
+            "sha1": "80520a596f3d2e7dc744591dae257dc87aaa204e"
+        },
+        {
+            "path": "mods/journeymap-1.20.1-5.10.3-forge.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/journeymap-1.20.1-5.10.3-forge.jar",
+            "sha1": "fdd97a782bdc6d0e28a851a9715abb190df47aa6"
+        },
+        {
+            "path": "mods/kotlinforforge-4.11.0-all.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/kotlinforforge-4.11.0-all.jar",
+            "sha1": "1fd8acfd75a2be2dc3cdcc7e816482b2e427d6e5"
+        },
+        {
+            "path": "mods/libIPN-forge-1.20-4.0.2.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/libIPN-forge-1.20-4.0.2.jar",
+            "sha1": "3e7c7fcdc037a6ae3d9146e718d87fc83f88f6d5"
+        },
+        {
+            "path": "mods/Mekanism-1.20.1-10.4.10.66.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Mekanism-1.20.1-10.4.10.66.jar",
+            "sha1": "99835d0554221e8665243bbed344f2fb29b2214e"
+        },
+        {
+            "path": "mods/Mekanism-1.20.1-10.4.9.61.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Mekanism-1.20.1-10.4.9.61.jar",
+            "sha1": "b2b72fa03a0a4b476fbfd6126da6fed4434aca55"
+        },
+        {
+            "path": "mods/mekanism-ad-astra-ores-1.0.0.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/mekanism-ad-astra-ores-1.0.0.jar",
+            "sha1": "41abb6dfe293d72bc28688bcee1bd4c4cddc255b"
+        },
+        {
+            "path": "mods/Mekanism-MoreSolarPanels-1.20.1-1.5.9.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Mekanism-MoreSolarPanels-1.20.1-1.5.9.jar",
+            "sha1": "fe1c2b785713496a0b2fc1f65a3c994b691fa61f"
+        },
+        {
+            "path": "mods/MekanismAdditions-1.20.1-10.4.10.66.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/MekanismAdditions-1.20.1-10.4.10.66.jar",
+            "sha1": "c6c27ec000ef8dec2771c55187ad0e3d975c5bf3"
+        },
+        {
+            "path": "mods/MekanismGenerators-1.20.1-10.4.10.66.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/MekanismGenerators-1.20.1-10.4.10.66.jar",
+            "sha1": "0c0b34ed4d512770f7be9882f06cf7f0df3ac4cb"
+        },
+        {
+            "path": "mods/MekanismGenerators-1.20.1-10.4.9.61.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/MekanismGenerators-1.20.1-10.4.9.61.jar",
+            "sha1": "37c352a49a089f88e1bd9d8b6f2b8762cd86e293"
+        },
+        {
+            "path": "mods/MekanismTools-1.20.1-10.4.10.66.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/MekanismTools-1.20.1-10.4.10.66.jar",
+            "sha1": "b7e8e5fabd782d5048b5aa569c8aa331673be4c6"
+        },
+        {
+            "path": "mods/MekanismTools-1.20.1-10.4.9.61.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/MekanismTools-1.20.1-10.4.9.61.jar",
+            "sha1": "6010c6afa8501f319679cf43986d652fd62b7044"
+        },
+        {
+            "path": "mods/merequester-forge-1.20.1-1.1.5.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/merequester-forge-1.20.1-1.1.5.jar",
+            "sha1": "24e6611df470afd957eafd16c43890b7214e3da9"
+        },
+        {
+            "path": "mods/modernfix-forge-5.19.5+mc1.20.1.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/modernfix-forge-5.19.5+mc1.20.1.jar",
+            "sha1": "a0397e9cd8afb2375579c0f98d470e59cada3376"
+        },
+        {
+            "path": "mods/modonomicon-1.20.1-forge-1.77.3.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/modonomicon-1.20.1-forge-1.77.3.jar",
+            "sha1": "a12fc3524a3d625d250f93ace486de7c4f13e534"
+        },
+        {
+            "path": "mods/MoreMekanismProcessing-1.20.1-4.2.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/MoreMekanismProcessing-1.20.1-4.2.jar",
+            "sha1": "8aba5c3102dd7eb8ad86e24c7af05ac27b3659f9"
+        },
+        {
+            "path": "mods/Myths_and_Legends-1.6.1-forge.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Myths_and_Legends-1.6.1-forge.jar",
+            "sha1": "9c6c11a86e9fe4eb42cb5ecf8f3910341ff0ea02"
+        },
+        {
+            "path": "mods/nef-1.2.0-forge-1.20.1.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/nef-1.2.0-forge-1.20.1.jar",
+            "sha1": "0230724d8f250b880b081e1e98816501b9d61a7a"
+        },
+        {
+            "path": "mods/Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar",
+            "sha1": "c0806369f4257149664904db44efc60bd1785c17"
+        },
+        {
+            "path": "mods/notenoughcrashes-4.4.7+1.20.1-forge.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/notenoughcrashes-4.4.7+1.20.1-forge.jar",
+            "sha1": "0cd0d0f49762dcaf3716e72c5e159ed9645ce468"
+        },
+        {
+            "path": "mods/occultism-1.20.1-1.140.2.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/occultism-1.20.1-1.140.2.jar",
+            "sha1": "7ea8fb14f59d068d6a5b48029afc5e4d2c33ce1c"
+        },
+        {
+            "path": "mods/OctoLib-FORGE-0.4.2+1.20.1.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/OctoLib-FORGE-0.4.2+1.20.1.jar",
+            "sha1": "d39a7e4d7ebd4e6f427f5c0958b7e2080ba02800"
+        },
+        {
+            "path": "mods/oculus-mc1.20.1-1.7.0 (1).jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/oculus-mc1.20.1-1.7.0 (1).jar",
+            "sha1": "27410903d3af950378776106b76503cfebe7ea3a"
+        },
+        {
+            "path": "mods/Palladium-1.20-1.20.4-1.0.9.3.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Palladium-1.20-1.20.4-1.0.9.3.jar",
+            "sha1": "8bb4e27797fa0fc885cddb2f8a6a2fc32095dbe2"
+        },
+        {
+            "path": "mods/Patchouli-1.20.1-84-FORGE.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Patchouli-1.20.1-84-FORGE.jar",
+            "sha1": "b6b7267f3669c10c167d5d375d0274d40e3eb756"
+        },
+        {
+            "path": "mods/polylib-forge-2000.0.3-build.143.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/polylib-forge-2000.0.3-build.143.jar",
+            "sha1": "bf49919adc9e9109196762ff20030f823790e2db"
+        },
+        {
+            "path": "mods/Re-Avaritia-forged-1.20.1-1.3.9.0-alpha1.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Re-Avaritia-forged-1.20.1-1.3.9.0-alpha1.jar",
+            "sha1": "24bbf634b6ea0d4f86d5a26dda29600f7c79a2af"
+        },
+        {
+            "path": "mods/relics-1.20.1-0.8.0.7.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/relics-1.20.1-0.8.0.7.jar",
+            "sha1": "2116039a9b4718374d5617c2541c39a0d32cee40"
+        },
+        {
+            "path": "mods/resourcefulconfig-forge-1.20.1-2.1.2.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/resourcefulconfig-forge-1.20.1-2.1.2.jar",
+            "sha1": "46825dc0adc36c4b19591bb99f7d856bc2953749"
+        },
+        {
+            "path": "mods/resourcefullib-forge-1.20.1-2.1.29.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/resourcefullib-forge-1.20.1-2.1.29.jar",
+            "sha1": "6fc590a7c56a720fec57e290cbb0a106efbb3ffa"
+        },
+        {
+            "path": "mods/rubidium-extra-0.5.4.3+mc1.20.1-build.121.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/rubidium-extra-0.5.4.3+mc1.20.1-build.121.jar",
+            "sha1": "af8b057d1b6a1844da59fa3680c4f847ea6a2aba"
+        },
+        {
+            "path": "mods/shetiphiancore-forge-1.20.1-1.3.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/shetiphiancore-forge-1.20.1-1.3.jar",
+            "sha1": "f85c798bdf38c27b1d81cab025f0985e18a1d591"
+        },
+        {
+            "path": "mods/SmartBrainLib-forge-1.20.1-1.15.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/SmartBrainLib-forge-1.20.1-1.15.jar",
+            "sha1": "366e0f0c7ca746fee327392d3569b31aefd34b5a"
+        },
+        {
+            "path": "mods/Steam_Rails-1.6.7+forge-mc1.20.1.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Steam_Rails-1.6.7+forge-mc1.20.1.jar",
+            "sha1": "7449e9cbaae6a23a31127a3cf0886899c28639dc"
+        },
+        {
+            "path": "mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+            "sha1": "f80f9eed728966adcfbcc848633e789645057281"
+        },
+        {
+            "path": "mods/supermartijn642corelib-1.1.17a-forge-mc1.20.1.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/supermartijn642corelib-1.1.17a-forge-mc1.20.1.jar",
+            "sha1": "592d758396570d1369cffab610a622a1600b98a6"
+        },
+        {
+            "path": "mods/TerraBlender-forge-1.20.1-3.0.1.7.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/TerraBlender-forge-1.20.1-3.0.1.7.jar",
+            "sha1": "18bb3f31d3188f8d5d96e80061615e260be2d44d"
+        },
+        {
+            "path": "mods/Terralith_1.20.x_v2.5.4.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Terralith_1.20.x_v2.5.4.jar",
+            "sha1": "79e1409b8db4ce86df9d6d6730f09c4bd8860a30"
+        },
+        {
+            "path": "mods/thermal_cultivation-1.20.1-11.0.1.24.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/thermal_cultivation-1.20.1-11.0.1.24.jar",
+            "sha1": "1973b5142aedca44aefa66d2406643e7d00205c7"
+        },
+        {
+            "path": "mods/thermal_dynamics-1.20.1-11.0.1.23.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/thermal_dynamics-1.20.1-11.0.1.23.jar",
+            "sha1": "7a9b3691dfca81e52d3e34738c6bc0a98b58bf93"
+        },
+        {
+            "path": "mods/thermal_expansion-1.20.1-11.0.1.29.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/thermal_expansion-1.20.1-11.0.1.29.jar",
+            "sha1": "c79fe5b922653d109cdcee45f4bca24c86daf6c0"
+        },
+        {
+            "path": "mods/thermal_foundation-1.20.1-11.0.6.70.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/thermal_foundation-1.20.1-11.0.6.70.jar",
+            "sha1": "7c1fbd79c9bda7478560faa886eaadf0dd8d181f"
+        },
+        {
+            "path": "mods/thermal_innovation-1.20.1-11.0.1.23.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/thermal_innovation-1.20.1-11.0.1.23.jar",
+            "sha1": "5c6881416ff4fb116d05f4a48acf12b30f10af82"
+        },
+        {
+            "path": "mods/thermal_integration-1.20.1-11.0.1.27.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/thermal_integration-1.20.1-11.0.1.27.jar",
+            "sha1": "8d6ecb5e6c8b7dc0a95eeaba012c6bcd1b75e77d"
+        },
+        {
+            "path": "mods/thermal_locomotion-1.20.1-11.0.1.19.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/thermal_locomotion-1.20.1-11.0.1.19.jar",
+            "sha1": "f39c3b75c4a34bc838c1abcc1ba88a8e724b11ec"
+        },
+        {
+            "path": "mods/titanium-1.20.1-3.8.32.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/titanium-1.20.1-3.8.32.jar",
+            "sha1": "4672c64a8019e81a4a6c8239f20661d5edbd5da1"
+        },
+        {
+            "path": "mods/tl_skin_cape_forge_1.20_1.20.1-1.32.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/tl_skin_cape_forge_1.20_1.20.1-1.32.jar",
+            "sha1": "b7df8fec6b076b9b1755754f03fde08349d221d1"
+        },
+        {
+            "path": "mods/ToadLib-1.20-1.20.4-1.1.5.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ToadLib-1.20-1.20.4-1.1.5.jar",
+            "sha1": "a0c2de86551e6a44ff56b8f9e2102feb2be3830d"
+        },
+        {
+            "path": "mods/Towns-and-Towers-1.12-Fabric+Forge.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Towns-and-Towers-1.12-Fabric+Forge.jar",
+            "sha1": "5a28ec56457cf1bf154e993cf73dba0428a7921b"
+        },
+        {
+            "path": "mods/trashcans-1.0.18b-forge-mc1.20.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/trashcans-1.0.18b-forge-mc1.20.jar",
+            "sha1": "4bc991b861a981921d06b731368239ce6ea571d3"
+        },
+        {
+            "path": "mods/VampiresNeedUmbrellas-1.20.1-1.0.1.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/VampiresNeedUmbrellas-1.20.1-1.0.1.jar",
+            "sha1": "7e499394047946c841a39e0655f41e2a3f7c77a2"
+        },
+        {
+            "path": "mods/Vampirism-1.20.1-1.10.11.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Vampirism-1.20.1-1.10.11.jar",
+            "sha1": "01635ed6783aff9dfd7d596538a11815c3a8ba19"
+        },
+        {
+            "path": "mods/Werewolves-1.20.1-2.0.2.3.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/Werewolves-1.20.1-2.0.2.3.jar",
+            "sha1": "9cb0d53bcdb7c324ad819cf273c74a84f35fdab5"
+        },
+        {
+            "path": "mods/WorldEditCUI-1.20+01.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/WorldEditCUI-1.20+01.jar",
+            "sha1": "5f0676a7369999e7414e7b2ab4f90da1f51471d4"
+        },
+        {
+            "path": "mods/YungsApi-1.20-Forge-4.0.6.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/YungsApi-1.20-Forge-4.0.6.jar",
+            "sha1": "af584b690f5646c6032002b58abc4591beed3833"
+        },
+        {
+            "path": "mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+            "sha1": "67a9e1c2ff126ab54cea8e0709d178915243039e"
+        },
+        {
+            "path": "mods/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+            "sha1": "889cd16a93764d1d6af2e2dda5bbc286a2683e7a"
+        },
+        {
+            "path": "mods/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+            "sha1": "d8e74ed19903752a97ed0e1d2b1a8bf378bc252f"
+        },
+        {
+            "path": "mods/YungsCaveBiomes-1.20.1-Forge-2.0.1.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/YungsCaveBiomes-1.20.1-Forge-2.0.1.jar",
+            "sha1": "9c1b90513f289e18e1ca26c3987b5d8c45a133a1"
+        },
+        {
+            "path": "mods/ZeroCore2-1.20.1-2.1.45.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ZeroCore2-1.20.1-2.1.45.jar",
+            "sha1": "bcb4d9d09ea69fca4e9436123e54706934732ddd"
+        },
+        {
+            "path": "mods/ZeroCore2-1.20.1-2.1.47.jar",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/mods/ZeroCore2-1.20.1-2.1.47.jar",
+            "sha1": "8f0452e2b1b5fd35edcc077a3a0f7e2ab08cd050"
+        },
+        {
+            "path": "resourcepacks/Dungeons and Taverns 3.0.3.fix.zip",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/resourcepacks/Dungeons and Taverns 3.0.3.fix.zip",
+            "sha1": "5b66ee2570761b2f728956b2b5b5ed6fc0b50e8b"
+        },
+        {
+            "path": "resourcepacks/Terralith_1.20_v2.5.4.zip",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/resourcepacks/Terralith_1.20_v2.5.4.zip",
+            "sha1": "37456bff32ffa8cd4c09afcdd571b17f1d5b2877"
+        },
+        {
+            "path": "shaderpacks/BSL_v8.4.zip",
+            "url": "https://github.com/nokt0/minecraft_1_20_1/releases/download/v1.0/shaderpacks/BSL_v8.4.zip",
+            "sha1": "5792871bbb2e31e83d81cedf46832ccf5aa913ba"
+        }
+    ]
 }
